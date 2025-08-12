@@ -1,6 +1,6 @@
 target 'SciTuner'
 
-platform :ios, 10.0
+platform :ios, 12.0
 
 use_frameworks!
 

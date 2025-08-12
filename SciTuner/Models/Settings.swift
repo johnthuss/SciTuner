@@ -45,10 +45,10 @@ class Settings: Object {
         get { return Filter(rawValue: self.filter_) ?? .on }
     }
     
-    private dynamic var pitch_: String = Pitch.standard.rawValue
-    private dynamic var instrument_: String = Instrument.guitar.rawValue
-    private dynamic var tuning_: String = Instrument.guitar.rawValue
-    private dynamic var filter_: String = Filter.off.rawValue
+    @objc private dynamic var pitch_: String = Pitch.standard.rawValue
+    @objc private dynamic var instrument_: String = Instrument.guitar.rawValue
+    @objc private dynamic var tuning_: String = Instrument.guitar.rawValue
+    @objc private dynamic var filter_: String = Filter.off.rawValue
     
     static func shared() -> Settings {
         let realm = try! Realm()

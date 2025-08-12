@@ -512,19 +512,16 @@
 				TargetAttributes = {
 					92404A541F5AE4D10058D89E = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = FY36GRS4PW;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 92C4EF0B1A3A11C800ECD2C7;
 					};
 					92C4EF0B1A3A11C800ECD2C7 = {
 						CreatedOnToolsVersion = 6.1;
-						DevelopmentTeam = 2E699XGUWS;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					92D2074E1F3B5E4C00C08471 = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = FY36GRS4PW;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Manual;
 						TestTargetID = 92C4EF0B1A3A11C800ECD2C7;
@@ -821,7 +818,7 @@
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = FY36GRS4PW;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SciTunerUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -843,7 +840,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = FY36GRS4PW;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SciTunerUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -969,17 +966,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2E699XGUWS;
+				DEVELOPMENT_TEAM = "";
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = scituner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kreshikhin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SciTuner;
-				PROVISIONING_PROFILE = "0092b306-9d37-4500-a858-bc09e1abb7f1";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "scituner/scituner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -994,15 +988,13 @@
 				CLANG_ENABLE_CODE_COVERAGE = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Denis Kreshikhin (FY36GRS4PW)";
-				DEVELOPMENT_TEAM = FY36GRS4PW;
+				DEVELOPMENT_TEAM = "";
 				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
 				INFOPLIST_FILE = scituner/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kreshikhin.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = SciTuner;
-				PROVISIONING_PROFILE = "d60ca57c-8854-4a4d-91c5-a330c92785d0";
-				PROVISIONING_PROFILE_SPECIFIER = "SciTuner Appstore";
 				SWIFT_OBJC_BRIDGING_HEADER = "scituner/scituner-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
@@ -1019,6 +1011,8 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = FY36GRS4PW;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
 				INFOPLIST_FILE = SciTunerTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
